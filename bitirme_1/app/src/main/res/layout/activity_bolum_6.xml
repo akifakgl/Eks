@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gulof.bitirme_1.bolum_6"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/h"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/h"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toEndOf="@+id/a"
+        app:layout_constraintTop_toTopOf="@+id/t"
+        app:srcCompat="@drawable/h" />
+
+    <ImageView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="77dp"
+        app:layout_constraintStart_toEndOf="@+id/h"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t" />
+
+    <ImageView
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="@+id/a"
+        app:layout_constraintTop_toBottomOf="@+id/a"
+        app:srcCompat="@drawable/l" />
+
+    <ImageView
+        android:id="@+id/I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        app:layout_constraintStart_toEndOf="@+id/l"
+        app:layout_constraintTop_toTopOf="@+id/l"
+        app:srcCompat="@drawable/k" />
+
+    <ImageView
+        android:id="@+id/p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/t"
+        app:layout_constraintTop_toTopOf="@+id/I"
+        app:srcCompat="@drawable/p" />
+
+    <ImageView
+        android:id="@+id/kararti1"
+        android:layout_width="91dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="89dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l"
+        app:srcCompat="@drawable/kararti" />
+
+    <ImageView
+        android:id="@+id/kararti2"
+        android:layout_width="89dp"
+        android:layout_height="87dp"
+        app:layout_constraintStart_toEndOf="@+id/kararti1"
+        app:layout_constraintTop_toTopOf="@+id/kararti1"
+        app:srcCompat="@drawable/kararti" />
+
+    <ImageView
+        android:id="@+id/kararti3"
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        app:layout_constraintStart_toEndOf="@+id/kararti2"
+        app:layout_constraintTop_toTopOf="@+id/kararti4"
+        app:srcCompat="@drawable/kararti" />
+
+    <ImageView
+        android:id="@+id/kararti4"
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/kararti2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kararti3"
+        app:layout_constraintTop_toTopOf="@+id/kararti2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/kararti" />
+</android.support.constraint.ConstraintLayout>

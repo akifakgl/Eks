@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gulof.bitirme_1.bolum_7">
+
+    <ImageView
+        android:id="@+id/iki"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/bes"
+        app:layout_constraintEnd_toStartOf="@+id/uc"
+        app:layout_constraintStart_toEndOf="@+id/bir"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/bir"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/dort"
+        app:layout_constraintEnd_toStartOf="@+id/iki"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/oniki"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/onbir"
+        app:layout_constraintTop_toBottomOf="@+id/dokuz"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/onbir"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/oniki"
+        app:layout_constraintStart_toEndOf="@+id/on"
+        app:layout_constraintTop_toBottomOf="@+id/sekiz"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/on"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/onbir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yedi"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/dokuz"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/oniki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sekiz"
+        app:layout_constraintTop_toBottomOf="@+id/alti"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/sekiz"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/onbir"
+        app:layout_constraintEnd_toStartOf="@+id/dokuz"
+        app:layout_constraintStart_toEndOf="@+id/yedi"
+        app:layout_constraintTop_toBottomOf="@+id/bes"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/yedi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/on"
+        app:layout_constraintEnd_toStartOf="@+id/sekiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dort"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/alti"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/dokuz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bes"
+        app:layout_constraintTop_toBottomOf="@+id/uc"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/bes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/sekiz"
+        app:layout_constraintEnd_toStartOf="@+id/alti"
+        app:layout_constraintStart_toEndOf="@+id/dort"
+        app:layout_constraintTop_toBottomOf="@+id/iki"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/dort"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/yedi"
+        app:layout_constraintEnd_toStartOf="@+id/bes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bir"
+        app:srcCompat="@drawable/mayin" />
+
+    <ImageView
+        android:id="@+id/uc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/alti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iki"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mayin" />
+
+</android.support.constraint.ConstraintLayout>

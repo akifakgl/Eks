@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gulof.bitirme_1.bolum_5">
+
+    <ImageView
+        android:id="@+id/bir"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintEnd_toStartOf="@+id/dort"
+        app:layout_constraintStart_toEndOf="@+id/uc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bir" />
+
+    <ImageView
+        android:id="@+id/iki"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dort"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dort"
+        app:layout_constraintTop_toTopOf="@+id/bir"
+        app:srcCompat="@drawable/iki" />
+
+    <ImageView
+        android:id="@+id/uc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bes"
+        app:layout_constraintEnd_toStartOf="@+id/bir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bir"
+        app:srcCompat="@drawable/uc" />
+
+    <ImageView
+        android:id="@+id/dort"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bir"
+        app:layout_constraintEnd_toStartOf="@+id/iki"
+        app:layout_constraintStart_toEndOf="@+id/bir"
+        app:layout_constraintTop_toTopOf="@+id/bir"
+        app:srcCompat="@drawable/dort" />
+
+    <ImageView
+        android:id="@+id/bes"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="85dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bir"
+        app:layout_constraintEnd_toEndOf="@+id/bir"
+        app:layout_constraintStart_toStartOf="@+id/uc"
+        app:layout_constraintTop_toTopOf="@+id/bir"
+        app:srcCompat="@drawable/bes" />
+
+</android.support.constraint.ConstraintLayout>

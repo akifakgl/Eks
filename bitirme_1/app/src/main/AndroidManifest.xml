@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gulof.bitirme_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bolum_21"></activity>
+        <activity android:name=".bolum_20" />
+        <activity android:name=".bolum_19" />
+        <activity android:name=".bolum_18" />
+        <activity android:name=".bolum_17" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bolum_1" />
+        <activity android:name=".bolum_2" />
+        <activity android:name=".bolum_3" />
+        <activity android:name=".bolum_4" />
+        <activity android:name=".bolum_5" />
+        <activity android:name=".bolum_6" />
+        <activity android:name=".bolum_7" />
+        <activity android:name=".bolum_8" />
+        <activity android:name=".bolum_9" />
+        <activity android:name=".bolum_10" />
+        <activity android:name=".bolum_11" />
+        <activity android:name=".bolum_12" />
+        <activity android:name=".bolum_13" />
+        <activity android:name=".bolum_14" />
+        <activity android:name=".bolum_15" />
+        <activity android:name=".bolum_16" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
